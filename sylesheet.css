@@ -1,0 +1,127 @@
+<style>
+
+.*{
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+	background-color: #19181A;
+}
+
+.box 
+{
+  word-wrap: break-word;
+  margin:2px;
+  border:1px solid black;
+  height:130px;
+  overflow:hidden;
+}
+
+    
+
+.content{
+  float: right;
+  color: black;
+  margin-top: 0px;
+  text-align: left;
+  font-size: 20px;
+  background-color: #CA5959;
+  padding: 0px;
+  border:0px solid black;
+  border-left-width: 1px;
+  border-bottom-width: 1px;
+  height: 25px;
+  overflow: auto;
+}   
+
+
+
+
+h1 {
+	background-color: #19181A;
+	/*ext-decoration: underline  dotted black;*/
+	text-align: center;
+	margin: 10px;
+  color:white;
+  /*text-shadow:1px 1px 2px #000000;*/
+}
+
+p {
+	margin-top: 25px;
+  padding-top:20px;
+  padding-left:3px;
+  color: black;
+ 
+}
+#p1 {
+  background-color: #E7717D;
+}
+
+#p2 {
+  background-color: #AFD275;
+}
+
+#p3 {
+  background-color: #7E685A;
+}
+
+#c1{
+  background-color: #f172a1;
+  border:1px solid black;
+}
+
+
+#c2{
+    background-color: #61892F;
+    border:1px solid black;
+}
+
+#c3{
+  background-color: #9D8D8F;
+  border:1px solid black;
+}
+
+
+
+
+/***************FOR DESKTOP **************/
+@media  (min-width: 992px)
+{
+  .col-lg-4 
+  {
+	  float:left;
+    width: 33.33%;
+  }
+}
+
+/****************FOR TABLET ***************/
+@media (min-width: 768px) and (max-width: 991px)
+ 
+ {
+.col-md-6
+ {
+  float:left;
+  width: 50%;
+  
+ }
+.col-md-12
+ {
+   float:left;
+   width: 100%;
+  
+ }
+}
+
+/***************FOR MOBILE **************/
+@media (max-width:  767px) 
+{
+  .col-s-12 
+  {
+	  float:left;
+    width: 100%;
+  }
+}
+
+</style>
